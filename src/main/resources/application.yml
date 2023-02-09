@@ -3,7 +3,9 @@ spring:
     name: PAYMENT-SERVICE
     
   config:
-    import: optional:configserver:http://localhost:8086
+    import: optional:configserver:https://configserver-production.up.railway.app
+    
+    #http://localhost:8086
   
 
 #eureka:
